@@ -8,6 +8,8 @@ const PLACES = [
   { name: 'Santa Cruz', zip: '95062' },
   { name: 'Honolulu', zip: '96803' },
 ];
+const date = new Date();
+console.log(date.getHours());
 
 class App extends React.Component {
   constructor() {
